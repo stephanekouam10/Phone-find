@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/txtNameLogin"
+        android:src="@drawable/ic_baseline_person_24" />
+
+    <EditText
+        android:id="@+id/txtNameLogin"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_above="@id/txtEmail"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/et_bag"
+        android:inputType="textPersonName"
+        android:hint="username"
+        android:paddingLeft="16dp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:textSize="21sp"/>
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_above="@id/txtPhone"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/et_bag"
+        android:hint="email"
+        android:paddingLeft="16dp"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:textSize="21sp"/>
+
+    <EditText
+        android:id="@+id/txtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_above="@id/txtPasswordLogin"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/et_bag"
+        android:hint="Phone number"
+        android:paddingLeft="16dp"
+        android:inputType="phone"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:textSize="21sp"/>
+
+    <EditText
+        android:id="@+id/txtPasswordLogin"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/txtConfirmPasswordLogin"
+        android:background="@drawable/et_bag"
+        android:hint="password"
+        android:paddingLeft="16dp"
+        android:inputType="textPassword"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:textSize="21sp"/>
+
+    <EditText
+        android:id="@+id/txtConfirmPasswordLogin"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_above="@id/forgot_pass_label"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/et_bag"
+        android:hint="Confirm password"
+        android:inputType="textPassword"
+        android:paddingLeft="16dp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:textSize="21sp" />
+
+    <CheckBox
+        android:id="@+id/forgot_pass_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/btnregister"
+        android:text="Accepter les conditions et termes d'utilisation" />
+
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="327dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:width="200dip"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/radius"
+        android:text="Registrer"
+        android:textColor="#FFF9F9" />
+
+</RelativeLayout>

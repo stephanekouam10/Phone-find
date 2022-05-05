@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "672499740158",
+    "firebase_url": "https://phonefind-group.firebaseio.com",
+    "project_id": "phonefind-group",
+    "storage_bucket": "phonefind-group.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672499740158:android:70440edc232ffe4e5764af",
+        "android_client_info": {
+          "package_name": "com.example.phonefind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672499740158-hk41lrum7m8d8caoh2rsj3140sekip7c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMOKASU8RxENvaQdAOsyUda8b2mOdzg5c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672499740158-hk41lrum7m8d8caoh2rsj3140sekip7c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

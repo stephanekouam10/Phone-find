@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/bg_login"
+    tools:context=".SaveDeviceActivity">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="120dp"
+        android:src="@drawable/ic_baseline_phone_android_24"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_model"
+            android:textColor="@color/colorWhite"
+            android:text="Modele :"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="21sp"
+            />
+
+        <TextView
+            android:id="@+id/txt_model"
+            android:text="modele name"
+            android:textColor="@color/background_light"
+            android:textSize="21sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_modelmanu"
+            android:text="Manufacturer :"
+            android:textSize="21sp"
+            android:textColor="@color/colorWhite"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/txt_manufacturer"
+            android:text="manufacturer name"
+            android:textSize="21sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_imie"
+            android:text="IMEI :"
+            android:textColor="@color/colorWhite"
+            android:textSize="21sp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/txt_imei"
+            android:text="imei name"
+            android:textSize="21sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_serie"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="21sp"
+            android:layout_marginRight="10dp"
+            android:text="Serie :"
+            android:textColor="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/txt_serie"
+            android:text="serie name"
+            android:textSize="21sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_device"
+            android:text="Device :"
+            android:textColor="@color/colorWhite"
+            android:layout_marginRight="10dp"
+            android:textSize="21sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/txt_device"
+            android:text="device name"
+            android:textSize="21sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:text="Nom :"
+            android:textColor="@color/colorWhite"
+            android:layout_marginRight="10dp"
+            android:textSize="21sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/txt_name"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/et_bag"
+            android:hint="Mon telephone"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:textSize="21sp" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_saveMydevice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/radius"
+        android:textColor="@color/colorWhite"
+        android:text="Enregistrer mon appareil"/>
+
+
+</LinearLayout>

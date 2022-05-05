@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/Image_connect"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/ic_baseline_person_24"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:id="@+id/btn_save_device"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="300dip"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/radius"
+            android:gravity="center|center_vertical"
+            android:text="Enregistrer mon appareil"
+            android:textColor="#FEFFFE" />
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="75dp"-->
+<!--            android:width="261.58dip"-->
+<!--            android:text="Permet d'enregistrer son appareil, des informations,Permet d'enregistrer son appareil, des informations "-->
+<!--            android:gravity="center"-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:textColor="@color/colorDarkGray"/>-->
+
+        <Button
+            android:id="@+id/btn_find_device"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="300dip"
+            android:background="@drawable/radius"
+            android:gravity="center|center_vertical"
+            android:text="Retrouver mon appareil"
+            android:textColor="#FEFFFE" />
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="75dp"-->
+<!--            android:width="261.58dip"-->
+<!--            android:text="Permet d'enregistrer son appareil, des informations,Permet d'enregistrer son appareil, des informations "-->
+<!--            android:gravity="center"-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:textColor="@color/colorDarkGray"/>-->
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

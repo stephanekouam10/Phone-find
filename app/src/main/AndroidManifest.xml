@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.phonefind">
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission
+        android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LocationActivity"></activity>
+        <activity android:name=".AccueilActivity" />
+        <activity
+            android:name=".DeviceInfoActivity"
+            android:theme="@style/AppTheme.Splash" />
+        <activity
+            android:name=".SaveDeviceActivity"
+            android:theme="@style/AppTheme.Splash" />
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/AppTheme.Splash" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.Splash" />
+        <activity
+            android:name=".OpenActivity"
+            android:theme="@style/AppTheme.Splash" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.Splash" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/AppTheme.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data android:name="com.google.android.geo.API_KEY"
+                    android:value="AIzaSyBt_3FADJmbhsmcRSVtzDyXrhSAruIqNhI"/>
+    </application>
+
+</manifest>

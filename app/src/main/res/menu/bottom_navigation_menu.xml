@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/home"
+            android:enabled="true"
+            android:icon="@drawable/home_filled_50px"
+            android:title="@string/Home"/>
+        <item
+            android:id="@+id/position"
+            android:enabled="true"
+            android:icon="@drawable/location_filled_50px"
+            android:title="@string/Position"/>
+        <item
+            android:id="@+id/profil"
+            android:enabled="true"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="@string/Profil"/>
+</menu>

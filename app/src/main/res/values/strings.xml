@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PhoneFind</string>
+
+    <string name="Home">Home</string>
+    <string name="Position">Position</string>
+    <string name="Profil">Profil</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+</resources>
